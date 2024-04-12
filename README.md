@@ -27,7 +27,7 @@ Deployed Backend can be accessed here [Blog](https://real-estate-blog-yjn0.onren
 
 ## Support and contact details
     - email :: akisamoruri@gmail.com
-    - phone :: +254795105127
+   
 
 ### License
 *Licenced under the MIT Licence
