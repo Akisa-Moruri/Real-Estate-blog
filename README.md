@@ -12,8 +12,8 @@
     - And your application is running.
        
 ## Live link
-Deployed Frontend can be accessed here [Blog](github-pages-link)  
-Deployed Backend can be accessed here [Blog](https://phase-1-final-real-estate-project.onrender.com/properties)
+Deployed Frontend can be accessed here [Blog](https://akisa-moruri.github.io/Real-Estate-blog/)  
+Deployed Backend can be accessed here [Blog](https://real-estate-blog-yjn0.onrender.com)
 
 
 ## Known Bugs
