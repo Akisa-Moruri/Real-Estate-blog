@@ -1,0 +1,22 @@
+{
+  "properties": [
+    {
+      "id": "3",
+      "image": "https://media.istockphoto.com/id/1409298953/photo/real-estate-agents-shake-hands-after-the-signing-of-the-contract-agreement-is-complete.jpg?s=2048x2048&w=is&k=20&c=_6Zu_si-xtfZ_WtmnmXL_SfSpkg7q0s_NhREfyR7da0=",
+      "listName": "Karen Centre",
+      "listDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "listTimeLine": "one night",
+      "price": "3000",
+      "ratings": "⭐⭐⭐✩✩"
+    },
+    {
+      "id": "4",
+      "image": "https://media.istockphoto.com/id/1272163106/photo/large-house-with-steep-roof-and-side-entry-three-car-garage.jpg?s=1024x1024&w=is&k=20&c=WEwH-MlAqCy2kSbnaWf1ZQLHhQJHUT3avWrSacFo3Ls=",
+      "listName": "Bungalow in Chepseon",
+      "listDescription": "Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc",
+      "listTimeLine": "",
+      "price": "3000",
+      "ratings": "⭐⭐✩✩✩"
+    }
+  ]
+}

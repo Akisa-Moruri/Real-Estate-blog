@@ -1,0 +1,191 @@
+@import url('http://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: #f1fbff;
+}
+
+.property-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; /* Optional: Adjust as per your design */
+}
+
+.property-section .col-lg-4 {
+    flex: 1; /* Make child elements take up equal space */
+    margin: 0 10px; /* Adjust margin as needed */
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption {
+    bottom: 220px;
+    z-index: 2;
+}
+
+.carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption p {
+    width: 60%;
+    font-size: 18px;
+    line-height: 1.9;
+    margin: auto;
+}
+
+.carousel-inner ::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-light .navbar-brand {
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: #000;
+}
+
+.navbar-light .navbar-nav .navbar-link {
+    color: #000;
+}
+
+.w-100 {
+    height: 100vh;
+}
+
+.service .card-body i {
+    font-size: 50px;
+}
+
+.team .card-body i {
+    font-size: 20px;
+}
+
+.team .card {
+    box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive CSS */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .carousel-caption {
+        bottom: 370px;
+    }
+}
+
+.carousel-caption p {
+    width: 100%;
+}
+
+.img-area img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+.carousel-caption {
+    bottom: 125px;
+}
+
+.carousel-caption h5 {
+    font-size: 17px;
+}
+
+.about-text {
+    padding-top: 50px;
+}
+
+.icons span i.fa-trash:hover {
+    color: rgb(231, 12, 12);
+    text-shadow: 0 0 5px red;
+}
+
+.icons span i.fa-pencil:hover {
+    color: rgb(12, 63, 231);
+    text-shadow: 0 0 5px darkblue;
+}
+
+.like-button:hover {
+    color: rgb(231, 49, 12);
+}
+
+.star-rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: center;
+}
+
+.star-rating input {
+    display: none;
+}
+
+.star-rating label {
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 0.1em;
+    cursor: pointer;
+}
+
+.star-rating label:before {
+    content: '\2605';
+    display: block;
+}
+
+.star-rating input:checked~label:before {
+    content: '\2605';
+    color: gold;
+}
+
+.star-rating label:hover:before,
+.star-rating label:hover~label:before {
+    content: '\2605';
+    color: gold;
+}
+
+/* @media (max-width: 992px) {
+    .card {
+        flex: 0 0 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 576px) {
+    .card {
+        flex: 0 0 calc(100% - 20px);
+    }
+} */
